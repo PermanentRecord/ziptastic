@@ -8,7 +8,8 @@ This is a port of the wonderful [python Ziptastic library](https://www.getziptas
 
 ## Usage
 
-`'use strict'
+```
+'use strict'
 
 const Ziptastic = require('./index.js')
 
@@ -19,8 +20,9 @@ z.getInfo('55401')
     console.log(obj)
     // Should log: { city: 'Minneapolis', state: 'MN', country: 'US' }
   })
-  .catch((e) => { console.log(e) })`
-
+  .catch((e) => { console.log(e) })
+  
+```
 
 ## Todos
 
