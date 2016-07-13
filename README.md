@@ -1,14 +1,14 @@
 # Ziptastic
 
 ## Overview
-This is a port of the wonderful [python Ziptastic library](https://www.getziptastic.com/) for Node.  The key differences in this port are:
+This is a port of the wonderful [python Ziptastic library](https://www.getziptastic.com/) to Node.  The key differences in this port are:
 
 * Locally hosted flat database structure instead of Redis
 * Country-specific (To help with memory footprint)
 
 ## Usage
 
-'use strict'
+`'use strict'
 
 const Ziptastic = require('./index.js')
 
@@ -21,7 +21,7 @@ z.getInfo('55401')
   })
   .catch((e) => {
     console.log(e)
-  })
+  })`
 
 
 ## Todos
