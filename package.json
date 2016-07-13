@@ -1,0 +1,27 @@
+{
+  "name": "ziptastic",
+  "version": "1.0.0",
+  "description": "A node.js port of the Ziptastic! project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PermanentRecord/ziptastic.git"
+  },
+  "keywords": [
+    "zipcode",
+    "zip",
+    "geocoding"
+  ],
+  "author": "Jeffery Bennett <jeffery@permanentrecord.io>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PermanentRecord/ziptastic/issues"
+  },
+  "homepage": "https://github.com/PermanentRecord/ziptastic#readme",
+  "dependencies": {
+    "fs-promise": "^0.5.0"
+  }
+}
