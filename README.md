@@ -1,7 +1,7 @@
 # Ziptastic
 
 ## Overview
-This is a port of the wonderful [Ziptastic library](https://www.getziptastic.com/) for Node.  The key differences in this port are:
+This is a port of the wonderful [python Ziptastic library](https://www.getziptastic.com/) for Node.  The key differences in this port are:
 
 * Locally hosted flat database structure instead of Redis
 * Country-specific (To help with memory footprint)
