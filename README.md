@@ -27,3 +27,8 @@ z.getInfo('55401')
 ## Todos
 
 * Add data for countries outside US
+
+## Related
+
+* [node-ziptastic client-library](https://github.com/bendrucker/node-ziptastic) (for use with Ziptastic's hosted instances)
+* Check out our other geo-library, [Zippy](https://github.com/PermanentRecord/zippy), if you need to geocode US postal codes.
