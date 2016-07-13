@@ -17,11 +17,9 @@ let z = new Ziptastic()
 z.getInfo('55401')
   .then((obj) => {
     console.log(obj)
-    // Should log: { city: 'MINNEAPOLIS', state: 'MN', country: 'US' }
+    // Should log: { city: 'Minneapolis', state: 'MN', country: 'US' }
   })
-  .catch((e) => {
-    console.log(e)
-  })`
+  .catch((e) => { console.log(e) })`
 
 
 ## Todos
